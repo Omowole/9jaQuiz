@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:id="@+id/quest1"
+        android:textAlignment="center"
+        android:textColor="#393737"
+        android:textSize="28sp"
+        android:text="@string/what_is_the_question"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/quest1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/l1"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#03A9F4"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            style="?android:attr/borderlessButtonStyle"
+             android:textSize="20sp"
+            android:text="@string/option_1"
+            android:id="@+id/but1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#03A9F4"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="@string/option_2"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/but2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/l2"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_below="@+id/l1"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#03A9F4"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="@string/option_3"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/but3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#03A9F4"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="@string/option_4"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/but4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_below="@+id/l2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:text="@string/_00_00"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:id="@+id/tima"/>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

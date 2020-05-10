@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="attempted" type="id" />
+    <item name="incorrect" type="id" />
+    <item name="correct" type="id" />
+
+</resources>
